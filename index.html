@@ -1,0 +1,98 @@
+<!-- 
+Разработайте мини-посадочную страницу для ресторана:
+
+Блоки:
+1. Шапка страницы
+2. Главный блок
+3. Блок с меню
+4. Блок с отзывами
+5. Подвал страницы
+
+Требования:
++ В шапке страницы слева должен быть логотип компании
++ В шапке страницы должны быть названия блоков (Главное, Меню, Отзывы)
++ В шапке страницы справа должна быть кнопка “Заказать”
++ В главном блоке на заднем фоне должна быть затемненная фотография ресторана, титул, описание и кнопка “Заказать”
++ Сделайте сайт адаптивным под мобильное приложение -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sansita+Swashed:wght@300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <header >
+        <h2>BURGUR</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#feedback">Feedback</a></li>
+        </ul>
+        <button>Order</button>
+    </header>
+    <main>
+        <div class="main-text">
+            <h3>The ultimate</h3>
+            <h1>Burger club</h1>
+        </div>
+        <img src="Default_burger_cinematic_and_of_different_types_flying_burger_1-removebg-preview 1.png" />
+    </main>
+    <menu id="menu">
+        <h2>Menu</h2>
+        <div class="menu">
+            <div class="food">
+                <img src="background_images/food-1.png" alt="">
+                <button>Order</button>
+            </div>
+            <div class="food">
+                <img src="background_images/food-1.png" alt="">
+                <button>Order</button>
+            </div>
+            <div class="food">
+                <img src="background_images/food-1.png" alt="">
+                <button>Order</button>
+            </div>
+            <div class="food">
+                <img src="background_images/food-1.png" alt="">
+                <button>Order</button>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="food">
+                <img src="background_images/food-1.png" alt="">
+                <button>Order</button>
+            </div>
+            <div class="food">
+                <img src="background_images/food-1.png" alt="">
+                <button>Order</button>
+            </div>
+            <div class="food">
+                <img src="background_images/food-1.png" alt="">
+                <button>Order</button>
+            </div>
+            <div class="food">
+                <img src="background_images/food-1.png" alt="">
+                <button>Order</button>
+            </div>
+        </div>
+    </menu>
+    <feedback>
+        <div id="feedback">
+            <h1>Это элемент, до которого нужно прокрутить</h1>
+        </div>
+    </feedback>
+    <footer>
+        
+    </footer>
+    
+</body>
+</html>
